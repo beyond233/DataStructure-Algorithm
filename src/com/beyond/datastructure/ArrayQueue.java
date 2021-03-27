@@ -12,7 +12,7 @@ public class ArrayQueue {
     /**
      * 队列大小
      */
-    private int maxSize;
+    private final int maxSize;
     /**
      * 头指针
      */
@@ -24,7 +24,7 @@ public class ArrayQueue {
     /**
      * 存储数据
      */
-    private Object[] array;
+    private final Object[] array;
 
     public ArrayQueue(int maxSize) {
         this.maxSize = maxSize;
