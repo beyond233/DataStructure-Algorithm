@@ -1,9 +1,5 @@
 package com.beyond.datastructure;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
 /**
  * 使用数组实现队列
  */
